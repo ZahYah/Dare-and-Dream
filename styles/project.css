@@ -1,0 +1,65 @@
+.empowering{
+  font-size: 1.2rem;
+}
+.add-btn{
+   width: 8rem;
+  border: none;
+  background-color: #58803A;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  gap: 10px;
+  font-weight: 500;
+  color: white;
+  padding: 0.3rem;
+}
+.add-btn:active{
+  opacity: 0.4;
+}
+.dash-bottom{
+  margin-top: 1.2rem;
+}
+.all-project-btn{
+ background-color: black;
+}
+/* Main */
+.all-project{
+  margin-top: 1rem;
+grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+gap: 16px;
+
+}
+.project-id{
+width: 20rem;
+height: 18rem;
+padding: 0.8rem;
+border-radius: 7px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+}
+.community-service{
+  color: #11111166;
+}
+.manage-button{
+  border-radius: 5px;
+border: 1px solid rgba(17, 17, 17, 0.40);
+width: 7rem;
+height: 2.5rem;
+background-color: #FFF;
+}
+.manage-button:hover{
+  color: white;
+  background-color:rgba(17, 17, 17, 0.40);
+}
+.manage-button:active{
+  color: white;
+  background-color:rgba(17, 17, 17, 0.40);
+  opacity: 0.5;
+}
+.project-year{
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.project-img{
+  height: 8rem;
+}
