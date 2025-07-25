@@ -1,26 +1,15 @@
 .create-project{
   letter-spacing: 0.09rem;
   margin-bottom: 0.55rem;
+  line-height: 1.3rem;
+
 }
-.manage-button{
-  border-radius: 5px;
-border: 1px solid rgba(17, 17, 17, 0.40);
-width: 7rem;
-height: 2.5rem;
-background-color: #FFF;
-}
-.manage-button:hover{
-  color: white;
-  background-color:rgba(17, 17, 17, 0.40);
-}
-.manage-button:active{
-  color: white;
-  background-color:rgba(17, 17, 17, 0.40);
-  opacity: 0.5;
-}
+
 .project-year{
   margin-bottom: 1rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
+  letter-spacing: 0px;
+
 }
 .add-btn{
    width: 8rem;

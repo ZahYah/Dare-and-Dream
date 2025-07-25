@@ -1,0 +1,59 @@
+.create-project{
+  letter-spacing: 0.08rem;
+  line-height: 1.3rem;
+  margin-bottom: 0.55rem;
+}
+.project-year{
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.1px;
+}
+.project-details{
+   font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.add-project-div{
+border: 1px solid hsla(0, 0%, 7%, 0.178);
+padding: 1rem;
+height: auto;
+width: 70rem;
+margin: 1.2rem auto;
+border-radius:7px;
+}
+
+.upload-div{
+  border: 1px dashed hsla(0, 0%, 7%, 0.178);
+margin-top: 2rem;
+border-radius: 5px;
+height: 10rem;
+}
+.upload-div>label{
+  height: 8rem;
+}
+.browse-file{
+  border: 1px solid rgba(17, 17, 17, 0.40);
+width: 8rem;
+height: 2.5rem;
+background-color: #FFF;
+border-radius: 1rem;
+}
+.browse-file:active{
+  background-color:rgba(17, 17, 17, 0.40);
+  color: #FFF;
+}
+.view-more{
+  color: #58803A;
+}
+.photo-div{
+  background-size:contain;
+  
+}
+.photo-div>img{
+  border-radius: 10px;
+  width: 16rem;
+  height: 10rem;
+}
+.photo-top{
+  margin-bottom: 1rem;
+}
