@@ -29,6 +29,7 @@
    background-repeat: no-repeat;
     background-position: right 10px center; /* Position it 10px from the right, vertically centered */
     background-size: 16px; /* Size of the icon */
+    padding: 1rem;
 }
 .all-project-btn option{
  background-color: rgba(0, 0, 0, 0.2);
@@ -45,6 +46,7 @@ background: #FFF;
 }
 .community-service{
   color: #11111166;
+  font-size: 0.8rem;
 }
 .manage-button{
   border-radius: 5px;
@@ -69,4 +71,11 @@ background-color: #FFF;
 }
 .project-img{
   height: 8rem;
+}
+.project-date{
+  font-size: 0.75rem;
+}
+.project-info{
+  margin-bottom: 1rem;
+  align-items: center;
 }
