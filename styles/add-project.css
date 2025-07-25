@@ -1,0 +1,68 @@
+.create-project{
+  letter-spacing: 0.09rem;
+  margin-bottom: 0.55rem;
+}
+.manage-button{
+  border-radius: 5px;
+border: 1px solid rgba(17, 17, 17, 0.40);
+width: 7rem;
+height: 2.5rem;
+background-color: #FFF;
+}
+.manage-button:hover{
+  color: white;
+  background-color:rgba(17, 17, 17, 0.40);
+}
+.manage-button:active{
+  color: white;
+  background-color:rgba(17, 17, 17, 0.40);
+  opacity: 0.5;
+}
+.project-year{
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.add-btn{
+   width: 8rem;
+  border: none;
+  background-color: #58803A;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  gap: 10px;
+  font-weight: 500;
+  color: white;
+  padding: 0.3rem;
+}
+.add-btn:active{
+  opacity: 0.4;
+}
+.project-details{
+   font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.add-project-div{
+border: 1px solid hsla(0, 0%, 7%, 0.178);
+padding: 1rem;
+height: 20rem;
+width: 70rem;
+margin: 1rem auto;
+border-radius:7px;
+}
+.program-date{
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.date{
+border: 1px solid hsla(0, 0%, 7%, 0.178);
+padding: 1rem;
+margin: 1rem;
+width: 60rem;
+border-radius: 5px;
+}
+.date input{
+  border: none;
+text-transform: uppercase;
+}

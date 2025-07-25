@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="General-Css/general.css">
+  <link rel="stylesheet" href="General-Css/side-bar.css">
+ <link rel="stylesheet" href="General-Css/index.css">
+  <link rel="stylesheet" href="styles/add-project.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Admin Portal</title>
+</head>
+<body>
+    <aside>
+    <div id="logo" class="flex column justify-around">
+    <div class="logo-top flex align-center" width="10rem">
+      <div id="logo-img">
+        <img src="./image/logo.png" alt="logo" height="60rem" width="80rem">
+      </div>
+      <div id="logo-text">
+        Dare A Dream
+      </div>
+    </div>
+    <p class="flex justify-center">Admin Panel</p>
+    </div>
+    
+    <p class="dashboard">Dashboard</p>
+    <div class="dashboard-button">
+      <div><button class="flex justify-center align-center" id="project-btn"> <img src="./icons/projects.png" alt="projects">Projects</button></div>
+      <div><button class="flex justify-center align-center"><img src="./icons/profile.png" alt="profile">Profile</button></div>
+      <div><button class="flex justify-center align-center"><img src="./icons/settings.png" alt="settings">Settings</button></div>
+    </div>
+
+  </aside>
+  <div class="main">
+  <header>
+    <p class="dash-text">Dashboard</p>
+    <div class="flex justify-between">
+    <div class="flex column">
+      <h5 class="create-project">Create New Project</h5>
+      <p class="project-year">Add a new youth empowerment program</p>
+    </div>
+    <div>
+      <a href="./index.html">
+      <button class="manage-button">Back</button></a>
+    </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="add-project-div">
+      <p class="project-details">Project Details</p>
+      <p>Enter the basic information for your program</p>
+
+      <p class="program-date">Program Date</p>
+      <div class="date">
+        <input type="date">
+      </div>
+      <button class="add-btn">Create Project</button>
+    </div>
+  </main>
+  </div>
+</body>
+</html>
