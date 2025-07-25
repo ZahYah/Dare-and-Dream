@@ -12,24 +12,32 @@
   font-weight: 500;
   color: white;
   padding: 0.3rem;
-  text-decoration: none;
 }
+
 .add-btn:active{
   opacity: 0.4;
 }
 .all-project-btn{
  background-color: black;
+  appearance: none;
+  -webkit-appearance: none; /* For Safari and Chrome */
+  -moz-appearance: none;    /* For Firefox */
+ color: white;
+ cursor: pointer;
+ outline: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+   background-repeat: no-repeat;
+    background-position: right 10px center; /* Position it 10px from the right, vertically centered */
+    background-size: 16px; /* Size of the icon */
+}
+.all-project-btn option{
+ background-color: rgba(0, 0, 0, 0.2);
 }
 /* Main */
 .all-project{
   margin-top: 1rem;
-grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-gap: 16px;
-
 }
 .project-id{
-width: 20rem;
-height: 18rem;
 padding: 0.8rem;
 border-radius: 7px;
 border: 1px solid rgba(0, 0, 0, 0.10);

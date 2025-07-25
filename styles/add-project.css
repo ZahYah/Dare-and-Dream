@@ -47,7 +47,7 @@ border-radius:7px;
 .date{
 border: 1px solid hsla(0, 0%, 7%, 0.178);
 padding: 1rem;
-margin: 1rem;
+margin: 1rem 0rem;
 width: 60rem;
 border-radius: 5px;
 }
@@ -55,3 +55,4 @@ border-radius: 5px;
   border: none;
 text-transform: uppercase;
 }
+
