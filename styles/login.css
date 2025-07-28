@@ -1,0 +1,162 @@
+.header{
+  height: 12vh;
+  background-color: #FFFFFF;
+  padding: 2rem 3rem;
+}
+ul a{
+  color: #11111199;
+}
+ul a:hover{
+  color: black;
+}
+ul{
+  gap: 1rem;
+}
+.get-involved{
+  border: none;
+    height: 2.5rem;
+  border-radius: 5px;
+   width: 7rem;
+   background-color: black;
+   color: #FFFFFF;
+}
+#logo-text{
+  color: #58803A;  
+}
+main{
+  height:88vh;
+  background: transparent url("../image/login-background.png") no-repeat fixed center center ;
+  background-size: cover;
+}
+.logo-div{
+  gap: 3px;
+}
+.login-div{
+  width: 60vw;
+  margin: 3rem auto;
+ border-radius: 10px;
+border: 1px solid rgba(255, 255, 255, 0.59);
+background: rgba(255, 255, 255, 0.06);
+  height: 75vh;
+  padding: 2rem;
+
+}
+.form-top{
+  height: 10rem;
+text-align: center;
+gap: 1em;
+}
+.welcome{
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+.sign-in{
+  color: #FFFFFF;
+  letter-spacing: 0.7px;
+  font-size: 1rem;
+}
+.form-bottom{
+  height: 60rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+input{
+  background-color: transparent;
+border-radius: 5px;
+border: 1px solid #58803A;
+background: rgba(0, 0, 0, 0.14);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+height: 2.5rem;
+margin: 1rem 0rem;
+padding: 1rem;
+}
+input::placeholder{
+  color: white;
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: -2rem;
+  border-radius: 6px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+   letter-spacing: 0.7px;
+  font-size: 1rem;
+  color: #FFF;
+  gap: 6px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.forget {
+   letter-spacing: 0.7px;
+  font-size: 0.8rem;
+  color: #c00;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.forget:hover {
+  color: #a00;
+}
+.sign-in-btn{
+  width: 90%;
+  margin: 0 auto;
+border-radius: 6px;
+background: #58803A;
+box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.25);  
+border: none;
+height: 2rem;  
+color: #FFF;
+letter-spacing: 0.5px;
+font-size: 1rem;
+}
+button:active{
+opacity: 0.8;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0;
+  color: #FFF; 
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #FFFFFF;
+  margin: 0 12px;
+}
+
+.google{
+  background-color: transparent;
+  border: 1px solid #58803A;
+  border-radius: 5px;
+  width: 40%;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: white;
+}
+.github{
+  border-radius: 7px;
+border: 1px solid #11B369;
+background: rgba(88, 128, 58, 0.62);
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+ width: 40%;
+  height: 2.5rem;
+  font-size: 1rem;
+  color: white;
+}
